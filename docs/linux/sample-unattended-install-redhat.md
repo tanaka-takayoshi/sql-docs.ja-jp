@@ -34,7 +34,7 @@ ms.lasthandoff: 08/02/2017
 サンプル スクリプトをファイルに保存し、それをカスタマイズする、スクリプトで変数の値を置き換えます。 設定できますスクリプト変数のいずれかの環境変数として、スクリプト ファイルから削除する限り、します。
 
 ```bash
-#!/bin/bash
+#!/bin/bash -eu
 
 # Use the following variables to control your install:
 
